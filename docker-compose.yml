@@ -16,6 +16,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=changeme
       - MYSQL_DATABASE=postal
+      - MYSQL_HOST=mysql
+      - RABBITMQ_HOST=rabbitmq
       - RABBITMQ_DEFAULT_USER=postal
       - RABBITMQ_DEFAULT_PASS=changeme
       - RABBITMQ_DEFAULT_VHOST=postal
